@@ -9,6 +9,9 @@
     --secondary_color4: #FFD02B;
     
     }
+    h1,p {
+        margin-top: 0;
+    }
     @font-face {
         font-family: play;
         src: 
@@ -44,7 +47,7 @@
                 
     }
 }
-.header-list span{
+.header_logo {
     color: var(--color-lightblue);
     font-family: play;
     font-weight: 700;
@@ -66,6 +69,7 @@ line-height: 1;
     color: var(--color-lightblue);
 }
 .button-herosection{
+    padding: 16px 32px;
     background-color: var(--color-lightblue);
     height: 53px;
     width: 219px;
@@ -97,7 +101,7 @@ line-height: 1;
 .aboutus span{
     color: var(--color-lightblue);
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 600;
 }
 .aboutus_p span{
     text-transform: capitalize;
@@ -169,7 +173,7 @@ line-height: 1;
         line-height: 1;
         color: var(--color-white);
     }
-    .footer_url
+    .footer
          a {text-decoration: none;}
         a:visited{color: var(--color-white);}
         a:hover {color: var(--color-lightblue);}
@@ -177,7 +181,7 @@ line-height: 1;
     .footer{
         background-color: var(--color-darkblue);
     }
-    .footer span{
+    .footer_logo{
         color: var(--color-lightblue);
             font-size: 24px;
             line-height: 0.87;
@@ -188,4 +192,7 @@ line-height: 1;
     }
     .div_copyright{
         color: var(--secondary_color2);
+    }
+    address{
+        font-style: normal;
     }
